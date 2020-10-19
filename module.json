@@ -1,0 +1,12 @@
+{
+    "id": "katex",
+    "name": "Katex",
+    "description": "Adds KaTeX support for HumHub richtexts.",
+    "keywords": [
+    ],
+    "version": "0.0.1.beta1",
+    "humhub": {
+        "minVersion": "1.7"
+    },
+    "screenshots": ["assets/screen1.jpg"]
+}
