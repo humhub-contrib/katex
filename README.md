@@ -2,7 +2,7 @@
 
 Once installed this plugin adds [KaTeX](https://katex.org/) support to the HumHub richtext output.
 
-**This module requires a HumHub v1.7+**
+**This module requires HumHub v1.7+**
 
 ### Build
 
