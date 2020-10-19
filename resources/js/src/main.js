@@ -5,9 +5,8 @@ humhub.module('katex', function(module, require, $) {
 
     var init = function() {
         $(document).on('afterRender', '[data-ui-richtext]', function () {
-            var that = this;
-            setTimeout(function() {
-                renderMathInElement(that);
+            setTimeout(() => {
+                renderMathInElement(this);
             });
 
         });

@@ -9,7 +9,6 @@ use humhub\components\assets\AssetBundle;
 */
 class Assets extends AssetBundle
 {
-    public $forceCopy = true;
     /**
      * @var string defines the path of your module assets
      */
