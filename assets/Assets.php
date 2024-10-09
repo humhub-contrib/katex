@@ -1,6 +1,6 @@
 <?php
 
-namespace  humhub\contrib\modules\katex\assets;
+namespace humhub\contrib\modules\katex\assets;
 
 use humhub\components\assets\AssetBundle;
 
@@ -15,10 +15,10 @@ class Assets extends AssetBundle
     public $sourcePath = '@katex/resources';
 
     public $js = [
-        'js/humhub.katex.bundle.js'
+        'js/humhub.katex.bundle.js',
     ];
 
     public $depends = [
-        KatexStyleAssets::class
+        KatexStyleAssets::class,
     ];
 }

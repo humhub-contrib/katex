@@ -13,7 +13,7 @@ return [
         [
             'class' => LayoutAddons::class,
             'event' =>  LayoutAddons::EVENT_INIT,
-            'callback' => [Events::class, 'onLayoutAddonsInit']
+            'callback' => [Events::class, 'onLayoutAddonsInit'],
         ],
     ],
 ];
