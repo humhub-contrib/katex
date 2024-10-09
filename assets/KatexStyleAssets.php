@@ -1,6 +1,6 @@
 <?php
 
-namespace  humhub\contrib\modules\katex\assets;
+namespace humhub\contrib\modules\katex\assets;
 
 use humhub\components\assets\AssetBundle;
 
@@ -15,6 +15,6 @@ class KatexStyleAssets extends AssetBundle
     public $sourcePath = '@katex/node_modules/katex/dist';
 
     public $css = [
-        'katex.min.css'
+        'katex.min.css',
     ];
 }

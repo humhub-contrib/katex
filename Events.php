@@ -1,6 +1,6 @@
 <?php
 
-namespace  humhub\contrib\modules\katex;
+namespace humhub\contrib\modules\katex;
 
 use humhub\contrib\modules\katex\assets\Assets;
 
